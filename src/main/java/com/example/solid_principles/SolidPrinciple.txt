@@ -16,3 +16,7 @@ This principle means you should be able to add new functionality to a class with
 3. Liskov Substitution Principle (LSP)
 Subclasses must be substitutable for their base classes without altering the behavior of the program.
 This principle states that if a class S is a subtype of a class T, then objects of type T may be replaced with objects of type S without any unexpected behavior. In simpler terms, a subclass should be able to do everything its parent class can do.
+
+4. Interface Segregation Principle (ISP)
+Clients should not be forced to depend upon interfaces that they do not use.
+This principle suggests that it's better to have multiple smaller, client-specific interfaces than one large, general-purpose interface. This prevents classes from being forced to implement methods they don't need.
