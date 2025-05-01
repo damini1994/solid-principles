@@ -8,3 +8,8 @@ Dependency Inversion Principle
 1. Single Responsibility Principle (SRP)
 A class should have only one reason to change.
 This principle suggests that a class should have a single, well-defined responsibility. If a class has multiple responsibilities, changes to one responsibility could affect others, leading to unexpected side effects and making the class harder to maintain and test
+
+2.  Open/Closed Principle (OCP)
+Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+This principle means you should be able to add new functionality to a class without altering its existing code. This is typically achieved through abstraction (interfaces or abstract classes) and polymorphism
+
