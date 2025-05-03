@@ -20,3 +20,9 @@ This principle states that if a class S is a subtype of a class T, then objects 
 4. Interface Segregation Principle (ISP)
 Clients should not be forced to depend upon interfaces that they do not use.
 This principle suggests that it's better to have multiple smaller, client-specific interfaces than one large, general-purpose interface. This prevents classes from being forced to implement methods they don't need.
+
+5. Dependency Inversion Principle (DIP)
+- High-level modules should not depend on low-level modules. Both should depend on abstractions.
+- Abstractions should not depend on details. Details should depend on abstractions.
+
+This principle promotes decoupling by ensuring that high-level modules (which contain business logic) do not depend directly on low-level modules (which handle implementation details). Instead, both should depend on abstractions (interfaces or abstract classes).
